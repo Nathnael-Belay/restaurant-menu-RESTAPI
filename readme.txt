@@ -3,7 +3,11 @@ This project is a RESTful API which handles logs of food items on a restaurant m
 I used LoopBack to make the API. LoopBack is a highly extensible, open source Node.js framework used
 to create dynamic, end-to-end REST APIs very rapidly. APIs generated via LoopBack are Swagger APIs.
 
-To run the project you'll have to make sure Node.js and MongoDB are installed and MongoDB server running.
+To run the project you'll have to make sure Node.js, loopback and MongoDB are installed. And MongoDB server running.
+To instaall loopback
+>npm install -g loopback-cli
+To install the mongodb connector
+>npm install --save loopback-connector-mongodb
 
 Run the application
 >node .
