@@ -25,4 +25,6 @@ same goes for dishes, but it only has two propeties, name and price.
 --> PUT/dishes/{id} to edit a dish
 --> DELETE/dishes/{id} to delete
 
+Same goes for users.
+
 
